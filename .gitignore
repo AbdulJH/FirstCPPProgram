@@ -1,0 +1,14 @@
+# Visual Studio
+.vs/
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+
+# C++ build files
+*.exe
+*.obj
+*.pdb
+*.ilk
