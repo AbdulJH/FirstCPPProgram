@@ -15,7 +15,9 @@ int main()
 
 	std::cin >> userInput;
 
-	std::cout << "Double that number is: " << userInput * 2;
+	std::cout << "Double that number is: " << userInput * 2 << '\n';
+
+	std::cout << "Triple that number is: " << userInput * 3;
 	
 
 
