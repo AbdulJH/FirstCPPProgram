@@ -9,8 +9,16 @@
 
 int main()
 {
- 
+	std::cout << "Enter an integer: ";
+
+	int userInput;
+
+	std::cin >> userInput;
+
+	std::cout << "Double that number is: " << userInput * 2;
 	
-  
+
+
+	return 0;
 }
 
