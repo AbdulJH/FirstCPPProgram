@@ -11,7 +11,7 @@ int main()
 {
 	std::cout << "Enter an integer: ";
 
-	int userInput;
+	int userInput{};
 
 	std::cin >> userInput;
 
