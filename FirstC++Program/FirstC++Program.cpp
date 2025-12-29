@@ -1,5 +1,16 @@
 #include <iostream>
 
+// Write a function called doubleNumber() that takes one integer parameter. 
+// The function should return double the value of the parameter.
+
+int doubleNumber(int num)
+{
+	return num * 2;
+}
+
+
+
+
 
 // Write a program that asks the user to enter a number, and then enter a second number. 
 // The program should tell the user what the result of adding and subtracting 
@@ -29,17 +40,19 @@ void addAndSubtract()
 
 int main()
 {
-	std::cout << "Enter an integer: ";
+	//std::cout << "Enter an integer: ";
 
-	int userInput{};
+	//int userInput{};
 
-	std::cin >> userInput;
+	//std::cin >> userInput;
 
-	std::cout << "Double that number is: " << userInput * 2 << '\n';
+	//std::cout << "Double that number is: " << userInput * 2 << '\n';
 
-	std::cout << "Triple that number is: " << userInput * 3 << '\n';
+	//std::cout << "Triple that number is: " << userInput * 3 << '\n';
 
-	addAndSubtract();
+	//addAndSubtract();
+
+	std::cout << doubleNumber(5);
 
 
 	return 0;
